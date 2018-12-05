@@ -3,8 +3,6 @@ I don't know if anyone uses audio CD's anymore, but one of the ways that I'm use
 
 It works this way:
 
-    mkdir music
-    cd music
     mkdir "Album name"
     cd !!:1
     /path/to/ripcd.sh
