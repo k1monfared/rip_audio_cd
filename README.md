@@ -3,11 +3,11 @@ I don't know if anyone uses audio CD's anymore, but one of the ways that I'm use
 
 It works this way:
 
-mkdir music
-cd music
-mkdir "Album name"
-cd !!:1
-/path/to/ripcd.sh
+    mkdir music
+    cd music
+    mkdir "Album name"
+    cd !!:1
+    /path/to/ripcd.sh
 
 It would be nice to have the script to read the CD info and create the folders and name them appropriately. One little problem is that many audio CD's don't provide that info in the CD text. Anyways, here are a few commands in case they do:
 
